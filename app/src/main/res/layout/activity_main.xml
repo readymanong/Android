@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jahon.andriod.timeout.MainActivity">
+
+
+    <EditText
+        android:id="@+id/inputtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        />
+
+    <Button
+        android:id="@+id/gettime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取倒计时时间爱你"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"/>
+
+    <Button
+        android:id="@+id/stattime"
+        android:text="开始倒计时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="结束倒计时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stoptime"/>
+</LinearLayout>
